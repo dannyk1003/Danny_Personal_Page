@@ -1,0 +1,57 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #707070;
+}
+
+#intro .jumbotron {
+    height: 70vh;
+}
+
+#intro h1 {
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.btn{
+    background: red;
+    color: white;
+    padding: 9px 26px;
+    border-radius: 20px;
+}
+
+#intro .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header li {
+    margin: 0 10px;
+}
+
+#second img {
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 13px;
+}
+
+footer {
+    padding: 80px 0px;
+    background: rgb(248, 248, 248);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-right: 20px;
+}
